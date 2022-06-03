@@ -1,4 +1,4 @@
-import {Container, Links} from "./styles"
+import {Container, Links, Content} from "./styles"
 
 import { Header } from "../../components/Header"
 import { Button } from "../../components/button"
@@ -12,7 +12,14 @@ export function Details (){
   return(
     <Container>
       <Header/> 
+
+      <main>
+        <Content>     
       <ButtonText title="Excluir nota" />
+
+      <h1>Introdução ao React</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eveniet molestiae fugiat modi perspiciatis dolorem porro natus ducimus adipisci tempora minus eaque consectetur, blanditiis inventore aspernatur aliquid distinctio iusto in!</p>
 
       <Section title="Links úteis">
         <Links>
@@ -26,9 +33,12 @@ export function Details (){
           <Tag title="express" />
           <Tag title="nodejs" />
         </Section>
-
      
       <Button title="Voltar"/>
+
+      </Content>
+      </main>
+      
      
       
     </Container>
