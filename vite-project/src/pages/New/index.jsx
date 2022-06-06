@@ -1,5 +1,6 @@
 import { Header  } from "../../components/Header";
 import { Input  } from "../../components/input";
+import { Textarea } from "../../components/Textarea";
 
 import { Container, Form } from "./styles";
 
@@ -17,6 +18,7 @@ export function New() {
           </header>
 
             <Input placeholder="Título" />
+            <Textarea placeholder="Observações" />
             
         </Form>
       </main>
