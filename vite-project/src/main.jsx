@@ -7,13 +7,13 @@ import theme from './styles/theme'
 
 import {Home} from './pages/Home'
 
-import {Profile} from './pages/Profile'
+import {New} from './pages/New'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider  theme={theme}>
       <GlobalStyles/>      
-      <P/>
+      <New/>
     </ThemeProvider>
   </React.StrictMode>
 )
