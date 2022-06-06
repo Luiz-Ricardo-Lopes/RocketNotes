@@ -1,6 +1,6 @@
 
-import {FiPlus, FiSearch} from 'react-icons/fi'
-import {Container, Brand, Menu, Search, Content, NewNote} from './style'
+import {FiPlus} from 'react-icons/fi'
+import {Container, Brand, Menu, Search, Content, NewNote} from './styles'
 
 import {Header} from '../../components/Header'
 import {Note} from '../../components/Note'
